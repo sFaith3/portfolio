@@ -47,6 +47,7 @@ hr {
   margin: 100px auto;
 }
 
+/* Containers */
 .top-container {
   background-color: #EAF6F6;
   padding-top: 100px;
@@ -62,13 +63,9 @@ hr {
   padding: 50px 0 20px;
 }
 
+/* Top Container */
 .pro {
   text-decoration: underline;
-}
-
-.intro {
-  margin: auto;
-  width: 50%;
 }
 
 .top-cloud {
@@ -81,6 +78,12 @@ hr {
   bottom: 300px;
   left: 250px;
   position: absolute;
+}
+
+/* Middle Container */
+.intro {
+  margin: auto;
+  width: 50%;
 }
 
 .skill-row {
@@ -133,6 +136,7 @@ hr {
   width: 40%;
 }
 
+/* Bottom Container */
 .footer-link {
   font-size: 1.25rem;
   margin: 10px 5px;
@@ -160,6 +164,7 @@ hr {
   padding: 20px 0;
 }
 
+/* Buttons */
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -185,4 +190,75 @@ hr {
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 6.5rem;
+  }
+
+  h2 {
+    font-size: 3.375rem;
+  }
+
+  h3 {
+    font-size: 2.75rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  hr {
+    width: 8%;
+  }
+
+  .intro {
+    width: 70%;
+  }
+
+  .skill-row {
+    width: 70%;
+  }
+
+  .code-img {
+    width: 30%;
+  }
+
+  .keyboard-mouse-img {
+    width: 30%;
+  }
+
+  .project-row {
+    width: 60%;
+  }
+
+  .steamOverload-img {
+    width: 70%;
+  }
+
+  .dreamball-img {
+    width: 100%;
+  }
+
+  .robinFruit-img {
+    width: 60%;
+  }
+
+  .arcadeSS-img {
+    width: 55%;
+  }
+
+  .linkedin {
+    font-size: 2rem;
+  }
+
+  .instagram {
+    font-size: 2rem;
+  }
+
+  .copyright {
+    font-size: 1rem;
+  }
 }
