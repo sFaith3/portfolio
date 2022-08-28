@@ -107,7 +107,7 @@ hr {
 .project-row {
   display: inline-block;
   margin: 100px auto 0 auto;
-  width: 40%;
+  width: 30%;
 }
 
 .project-link {
@@ -115,12 +115,12 @@ hr {
   font-size: 1.75rem;
 }
 
-.steamOverload-img {
-  width: 54%;
+.steamOverload-gif {
+  width: 80%;
 }
 
-.dreamball-img {
-  width: 75%;
+.dreamball-gif {
+  width: 80%;
 }
 
 .robinFruit-img {
