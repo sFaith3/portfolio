@@ -115,7 +115,7 @@ hr {
   font-size: 1.75rem;
 }
 
-.steamOverload-gif {
+.deathbymisstep-img {
   width: 80%;
 }
 
@@ -123,17 +123,8 @@ hr {
   width: 80%;
 }
 
-.robinFruit-img {
-  width: 41%;
-}
-
-.arcadeSS-img {
-  width: 40%;
-}
-
-.contact-message {
-  margin: 40px auto 60px;
-  width: 40%;
+.steamoverload-gif {
+  width: 80%;
 }
 
 /* Bottom Container */
@@ -234,20 +225,12 @@ hr {
     width: 60%;
   }
 
-  .steamOverload-img {
+  .dreamball-img {
     width: 70%;
   }
 
-  .dreamball-img {
-    width: 100%;
-  }
-
-  .robinFruit-img {
-    width: 60%;
-  }
-
-  .arcadeSS-img {
-    width: 55%;
+  .steamoverload-img {
+    width: 70%;
   }
 
   .linkedin {
