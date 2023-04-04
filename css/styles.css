@@ -184,7 +184,7 @@ hr {
 }
 
 /* Media Queries */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   h1 {
     font-size: 6.5rem;
   }
