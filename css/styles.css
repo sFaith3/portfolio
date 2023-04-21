@@ -133,7 +133,10 @@ hr {
   margin: 10px 5px;
 }
 
-.linkedin {
+.linkedin,
+.github,
+.instagram,
+.twitter {
   padding: 15px;
 }
 
@@ -141,12 +144,16 @@ hr {
   background: #00a0dc;
 }
 
-.instagram {
-  padding: 15px;
+.github:hover {
+  background: #333;
 }
 
 .instagram:hover {
-  background: #f77737;
+  background: #e1306c;
+}
+
+.twitter:hover {
+  background: #1da1f2;
 }
 
 .copyright {
