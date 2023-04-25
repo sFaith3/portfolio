@@ -1,7 +1,7 @@
 body {
   color: #40514E;
   font-family: "Merriweather", serif;
-  font-size: 155%;
+  font-size: 150%;
   margin: 0;
   text-align: center;
 }
@@ -24,6 +24,11 @@ h2 {
 
 h3 {
   color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+  color: #333;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -86,28 +91,39 @@ hr {
   width: 50%;
 }
 
-.skill-row {
-  margin: 100px auto;
+.title {
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+}
+
+.date {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.content {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.experience-row {
+  margin: 60px auto;
   text-align: left;
   width: 50%;
 }
 
-.code-img {
+.misstepstudio-img,
+.jandusoft-img,
+.pupgamstudios-img {
   float: left;
-  margin-right: 30px;
-  width: 25%;
-}
-
-.keyboard-mouse-img {
-  float: right;
-  margin-left: 30px;
-  width: 25%;
+  margin-right: 20px;
+  width: 12%;
 }
 
 .project-row {
   display: inline-block;
-  margin: 100px auto 0 auto;
-  width: 30%;
+  margin: 60px auto 0 auto;
+  width: 50%;
 }
 
 .project-link {
@@ -115,16 +131,28 @@ hr {
   font-size: 1.75rem;
 }
 
-.deathbymisstep-img {
-  width: 80%;
+.project-content {
+  text-align: left;
+  font-size: 1.2rem;
 }
 
-.dreamball-gif {
-  width: 80%;
-}
-
+.deathbymisstep-gif,
+.dreamball-gif,
 .steamoverload-gif {
-  width: 80%;
+  width: 100%;
+}
+
+.education-row {
+  margin: 60px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.universitat-barcelona-img,
+.escola-pia-img {
+  float: left;
+  margin-right: 20px;
+  width: 12%;
 }
 
 /* Bottom Container */
@@ -216,15 +244,13 @@ hr {
     width: 70%;
   }
 
-  .skill-row {
+  .experience-row {
     width: 70%;
   }
 
-  .code-img {
-    width: 30%;
-  }
-
-  .keyboard-mouse-img {
+  .misstep-studio-img,
+  .jandusoft-img,
+  .pupgam-studios-img {
     width: 30%;
   }
 
@@ -232,19 +258,25 @@ hr {
     width: 80%;
   }
 
-  .dreamball-img {
+  .deathbymisstep-gif,
+  .dreamball-gif,
+  .steamoverload-gif {
     width: 70%;
   }
 
-  .steamoverload-img {
+  .education-row {
     width: 70%;
   }
 
-  .linkedin {
-    font-size: 2rem;
+  .universitat-barcelona-img,
+  .escola-pia-img {
+    width: 30%;
   }
 
-  .instagram {
+  .linkedin,
+  .github,
+  .instagram,
+  .twitter {
     font-size: 2rem;
   }
 
