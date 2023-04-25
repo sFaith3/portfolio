@@ -53,7 +53,7 @@ hr {
   border: dotted #EAF6F6 8px;
   border-bottom: none;
   width: 4%;
-  margin: 100px auto;
+  margin: 80px auto;
 }
 
 /* Containers */
@@ -243,19 +243,15 @@ hr {
 /* Media Queries */
 @media only screen and (max-width: 992px) {
   h1 {
-    font-size: 6.5rem;
+    font-size: 5rem;
   }
 
   h2 {
-    font-size: 3.375rem;
-  }
-
-  h3 {
-    font-size: 2.75rem;
+    font-size: 2.85rem;
   }
 
   p {
-    font-size: 2.15rem;
+    font-size: 1.5rem;
   }
 
   hr {
@@ -273,17 +269,17 @@ hr {
   .misstep-studio-img,
   .jandusoft-img,
   .pupgam-studios-img {
-    width: 30%;
+    width: 100%;
   }
 
   .project-row {
-    width: 80%;
+    width: 70%;
   }
 
   .deathbymisstep-gif,
   .dreamball-gif,
   .steamoverload-gif {
-    width: 70%;
+    width: 100%;
   }
 
   .education-row {
@@ -292,7 +288,7 @@ hr {
 
   .universitat-barcelona-img,
   .escola-pia-img {
-    width: 30%;
+    width: 100%;
   }
 
   .linkedin,
