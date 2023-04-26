@@ -95,28 +95,6 @@ hr {
   width: 50%;
 }
 
-/* Create two unequal columns that floats next to each other */
-.column {
-  float: left;
-  padding: 10px;
-}
-
-.col-left {
-  width: 15%;
-}
-
-.col-right {
-  width: 85%;
-}
-
-/* Clear floats after the columns */
-.experience-row:after,
-.education-row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .title {
   margin: 0 0 10px 0;
   font-size: 1.6rem;
@@ -238,6 +216,34 @@ hr {
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.col-left {
+  width: 15%;
+}
+
+.col-right {
+  width: 85%;
+}
+
+/* Clear floats after the columns */
+.experience-row:after,
+.education-row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Hide elements */
+.hide-left {
+  opacity: 0;
+  left: -100%;
 }
 
 /* Media Queries */
