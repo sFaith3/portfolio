@@ -256,32 +256,33 @@ hr {
 /* Media Queries */
 @media only screen and (max-width: 992px) {
   h1 {
-    font-size: 5.75rem;
+    font-size: 6rem;
   }
 
   h2 {
-    font-size: 3.25rem;
+    font-size: 3.35rem;
   }
 
   hr {
-    width: 8%;
+    width: 12%;
+    border-width: 16px;
   }
 
   .intro {
     width: 80%;
-    font-size: 1.75rem;
+    font-size: 1.95rem;
   }
 
   .title {
-    font-size: 2rem;
+    font-size: 2.15rem;
   }
 
   .date {
-    font-size: 1.6rem;
+    font-size: 1.75rem;
   }
 
   .content {
-    font-size: 1.6rem;
+    font-size: 1.85rem;
   }
 
   .experience-row {
@@ -299,11 +300,11 @@ hr {
   }
 
   .project-link {
-    font-size: 2rem;
+    font-size: 2.35rem;
   }
 
   .project-content {
-    font-size: 1.45rem;
+    font-size: 1.6rem;
   }
 
   .deathbymisstep-gif,
