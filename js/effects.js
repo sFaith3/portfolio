@@ -19,7 +19,7 @@ function InitHideElements() {
 
 function AreVisibleInScreen(functionListened, elements, classToRemove) {
     let arePendingClassesToRemove = false;
-    const OffsetY = 950; // To get 'value' earlier
+    const OffsetY = 1000; // To get 'value' earlier
 
     Array.prototype.forEach.call(elements, element => {
         if (!element.classList.contains(classToRemove)) { return; }
