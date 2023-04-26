@@ -256,15 +256,11 @@ hr {
 /* Media Queries */
 @media only screen and (max-width: 992px) {
   h1 {
-    font-size: 5rem;
+    font-size: 5.75rem;
   }
 
   h2 {
-    font-size: 2.85rem;
-  }
-
-  p {
-    font-size: 1.5rem;
+    font-size: 3.25rem;
   }
 
   hr {
@@ -272,11 +268,24 @@ hr {
   }
 
   .intro {
-    width: 70%;
+    width: 80%;
+    font-size: 1.75rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .date {
+    font-size: 1.6rem;
+  }
+
+  .content {
+    font-size: 1.6rem;
   }
 
   .experience-row {
-    width: 70%;
+    width: 80%;
   }
 
   .misstep-studio-img,
@@ -286,7 +295,15 @@ hr {
   }
 
   .project-row {
-    width: 70%;
+    width: 80%;
+  }
+
+  .project-link {
+    font-size: 2rem;
+  }
+
+  .project-content {
+    font-size: 1.45rem;
   }
 
   .deathbymisstep-gif,
@@ -296,7 +313,7 @@ hr {
   }
 
   .education-row {
-    width: 70%;
+    width: 80%;
   }
 
   .universitat-barcelona-img,
@@ -308,10 +325,10 @@ hr {
   .github,
   .instagram,
   .twitter {
-    font-size: 2rem;
+    font-size: 2.15rem;
   }
 
   .copyright {
-    font-size: 1rem;
+    font-size: 1.15rem;
   }
 }
