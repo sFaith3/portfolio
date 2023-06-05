@@ -151,6 +151,7 @@ hr {
   width: 50%;
 }
 
+.level-up-img,
 .universitat-barcelona-img,
 .escola-pia-img {
   width: 100%;
@@ -327,6 +328,7 @@ hr {
     width: 80%;
   }
 
+  .level-up-img,
   .universitat-barcelona-img,
   .escola-pia-img {
     width: 100%;
