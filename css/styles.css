@@ -117,8 +117,9 @@ hr {
 }
 
 .misstepstudio-img,
-.rampagegamestudios-img,
+.bombasvalero-img,
 .jandusoft-img,
+.rampagegamestudios-img,
 .pupgamstudios-img {
   width: 100%;
 }
@@ -305,12 +306,6 @@ hr {
 
   .experience-row {
     width: 80%;
-  }
-
-  .misstep-studio-img,
-  .jandusoft-img,
-  .pupgam-studios-img {
-    width: 100%;
   }
 
   .project-row {
