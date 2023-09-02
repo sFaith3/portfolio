@@ -3,7 +3,7 @@
 }
 
 body {
-  color: #40514E;
+  color: #40514e;
   font-family: "Merriweather", serif;
   font-size: 145%;
   margin: 0;
@@ -11,29 +11,29 @@ body {
 }
 
 h1 {
-  color: #66BFBF;
+  color: #66bfbf;
   font-size: 5.625rem;
   /*100%-16px 90px/16px = 562.5% /// 16px = 1em*/
-  font-family: 'Sacramento', cursive;
+  font-family: "Sacramento", cursive;
   margin: 50px auto 0 auto;
 }
 
 h2 {
-  color: #66BFBF;
-  font-family: 'Montserrat', sans-serif;
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   /* 40px/16px = 2.5rem */
   padding-bottom: 10px;
 }
 
 h3 {
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
 }
 
 h5 {
   color: #333;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 p {
@@ -41,16 +41,16 @@ p {
 }
 
 a {
-  color: #11999E;
+  color: #11999e;
   text-decoration: none;
 }
 
 a:hover {
-  color: #EAF6F6;
+  color: #eaf6f6;
 }
 
 hr {
-  border: dotted #EAF6F6 8px;
+  border: dotted #eaf6f6 8px;
   border-bottom: none;
   width: 4%;
   margin: 80px auto;
@@ -58,7 +58,7 @@ hr {
 
 /* Containers */
 .top-container {
-  background-color: #EAF6F6;
+  background-color: #eaf6f6;
   padding-top: 100px;
   position: relative;
 }
@@ -68,7 +68,7 @@ hr {
 }
 
 .bottom-container {
-  background-color: #66BFBF;
+  background-color: #66bfbf;
   padding: 50px 0 20px;
 }
 
@@ -131,7 +131,7 @@ hr {
 }
 
 .project-link {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.75rem;
 }
 
@@ -173,7 +173,7 @@ hr {
 .linkedin,
 .github,
 .instagram,
-.twitter {
+.x-twitter {
   padding: 15px;
 }
 
@@ -189,13 +189,13 @@ hr {
   background: #e1306c;
 }
 
-.twitter:hover {
-  background: #1da1f2;
+.x-twitter:hover {
+  background: #14171a;
 }
 
 .copyright {
-  color: #EAF6F6;
-  font-size: .85rem;
+  color: #eaf6f6;
+  font-size: 0.85rem;
   padding: 20px 0;
 }
 
@@ -210,7 +210,7 @@ hr {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -268,7 +268,7 @@ hr {
 }
 
 /* Media Queries */
-@media only screen and (max-width: 992px) {
+@media (max-width: 992px) {
   h1 {
     font-size: 6rem;
   }
@@ -336,15 +336,24 @@ hr {
     width: 100%;
   }
 
+  .contact-message {
+    font-size: 1.65rem;
+  }
+
   /* Bottom Container */
   .linkedin,
   .github,
   .instagram,
-  .twitter {
+  .x-twitter {
     font-size: 2.3rem;
   }
 
   .copyright {
     font-size: 1.15rem;
+  }
+
+  /* Buttons */
+  .btn {
+    font-size: 30px;
   }
 }
