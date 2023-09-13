@@ -269,6 +269,7 @@ hr {
 
 /* Media Queries */
 @media (max-width: 992px) {
+  /* Tablet */
   h1 {
     font-size: 6rem;
   }
