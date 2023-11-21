@@ -125,9 +125,7 @@ hr {
 }
 
 .project-row {
-  display: inline-block;
-  margin: 60px auto 0 auto;
-  width: 50%;
+  margin: 60px 100px 0 100px;
 }
 
 .project-link {
@@ -140,9 +138,12 @@ hr {
   font-size: 1.2rem;
 }
 
-.deathbymisstep-gif,
+.steamoverload-gif,
 .dreamball-gif,
-.steamoverload-gif {
+.robinfruit-gif,
+.explodingturtles-gif,
+.arcadess-gif,
+.lemmings-gif {
   width: 100%;
 }
 
@@ -228,7 +229,7 @@ hr {
 }
 
 /* Create two unequal columns that floats next to each other */
-.column {
+.column-unequal {
   float: left;
   padding: 10px;
 }
@@ -241,9 +242,17 @@ hr {
   width: 85%;
 }
 
+/* Create two equal columns that floats next to each other */
+.column-equal {
+  float: left;
+  padding: 25px;
+  width: 50%;
+}
+
 /* Clear floats after the columns */
 .experience-row:after,
-.education-row::after {
+.project-row:after,
+.education-row:after {
   content: "";
   display: table;
   clear: both;
@@ -309,10 +318,6 @@ hr {
     width: 80%;
   }
 
-  .project-row {
-    width: 80%;
-  }
-
   .project-link {
     font-size: 2.35rem;
   }
@@ -321,9 +326,12 @@ hr {
     font-size: 1.6rem;
   }
 
-  .deathbymisstep-gif,
+  .steamoverload-gif,
   .dreamball-gif,
-  .steamoverload-gif {
+  .robinfruit-gif,
+  .explodingturtles-gif,
+  .arcadess-gif,
+  .lemmings-gif {
     width: 100%;
   }
 
@@ -356,5 +364,10 @@ hr {
   /* Buttons */
   .btn {
     font-size: 30px;
+  }
+
+  /* Create two equal columns that floats next to each other */
+  .column-equal {
+    width: 100%;
   }
 }
