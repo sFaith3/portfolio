@@ -213,7 +213,7 @@ hr {
   border-radius: 8px;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1em;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
@@ -358,12 +358,12 @@ hr {
   }
 
   .copyright {
-    font-size: 1.15rem;
+    font-size: 0.75rem;
   }
 
   /* Buttons */
   .btn {
-    font-size: 30px;
+    font-size: 0.7em;
   }
 
   /* Create two equal columns that floats next to each other */
