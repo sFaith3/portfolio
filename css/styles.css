@@ -5,7 +5,7 @@
 body {
   color: #40514e;
   font-family: "Merriweather", serif;
-  font-size: 145%;
+  font-size: 121%;
   margin: 0;
   text-align: center;
 }
@@ -37,7 +37,7 @@ h5 {
 }
 
 p {
-  line-height: 1.75;
+  line-height: 1.5;
 }
 
 a {
@@ -92,7 +92,7 @@ hr {
 /* Middle Container */
 .intro {
   margin: auto;
-  width: 50%;
+  width: 48%;
 }
 
 .title {
@@ -100,23 +100,29 @@ hr {
   font-size: 1.6rem;
 }
 
+.company {
+  margin: 0 0 5px 0;
+  font-size: 1rem;
+}
+
 .date {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .content {
-  margin-top: 10px;
   font-size: 1.2rem;
 }
 
 .experience-row {
-  margin: 60px auto;
+  margin: 40px auto;
   text-align: left;
   width: 50%;
 }
 
 .misstepstudio-img,
+.balcellsintegralservice-img,
 .bombasvalero-img,
 .jandusoft-img,
 .rampagegamestudios-img,
@@ -235,11 +241,11 @@ hr {
 }
 
 .col-left {
-  width: 15%;
+  width: 10%;
 }
 
 .col-right {
-  width: 85%;
+  width: 90%;
 }
 
 /* Create two equal columns that floats next to each other */
@@ -274,6 +280,10 @@ hr {
 /* Lists */
 .init-list {
   margin-bottom: 0;
+}
+
+.list {
+  margin-top: 0;
 }
 
 /* Media Queries */
