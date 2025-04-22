@@ -1,24 +1,32 @@
 document.addEventListener("DOMContentLoaded", () => {
-  InitHideElements();
+  initHideElements();
 });
 
-function InitHideElements() {
+function initHideElements() {
   const experienceRowElements =
     document.getElementsByClassName("experience-row");
   const educationRowElements = document.getElementsByClassName("education-row");
 
-  function ExperienceRow(event) {
-    AreVisibleInScreen(ExperienceRow, experienceRowElements, "hide-left");
+  function revealExperienceRow() {
+    revealElementsOnScroll(
+      revealExperienceRow,
+      experienceRowElements,
+      "hide-left"
+    );
   }
-  function EducationRow(event) {
-    AreVisibleInScreen(EducationRow, educationRowElements, "hide-left");
+  function revealEducationRow() {
+    revealElementsOnScroll(
+      revealEducationRow,
+      educationRowElements,
+      "hide-left"
+    );
   }
 
-  window.addEventListener("scroll", ExperienceRow);
-  window.addEventListener("scroll", EducationRow);
+  window.addEventListener("scroll", revealExperienceRow);
+  window.addEventListener("scroll", revealEducationRow);
 }
 
-function AreVisibleInScreen(functionListened, elements, classToRemove) {
+function revealElementsOnScroll(functionListened, elements, classToRemove) {
   let arePendingClassesToRemove = false;
   const OffsetY = 1000; // To get 'value' earlier
 
